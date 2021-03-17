@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+<body>
+	<h2>Login Here</h2>
+ 	<!-- we don't have a form handler to accept input from yet -->
+	<form action="logininfo">
+		<label for="username">Username:</label><br>
+		
+		<input type="text" id="username" name="username" value="Username"><br>
+		
+		<label for="password">Password:</label><br> 
+		<input type="password" id="password" name="password" value="Password"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+	<p>If you click the "Submit" button, the form-data will be sent to
+		a page called "/logininfo".</p>
+</body>
+</html>
